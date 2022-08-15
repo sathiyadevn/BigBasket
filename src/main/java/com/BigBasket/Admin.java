@@ -19,6 +19,8 @@ public class Admin {
 	private static Logger log =Logger.getLogger(Admin.class);
 	static String[] str=new String[]{"fruits","graints","cosmetics","cleaning","desserts"};
 	
+	
+	
 	public static void aSwitch() throws ClassNotFoundException, SQLException {
 		out.println("\t\t\t****************************");		
 		out.println("				ADMIN PAGE");
@@ -197,7 +199,7 @@ public class Admin {
 		}
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		PropertyConfigurator.configure("log4j");			// Store logging info into a file
-
+		
 		aSwitch();
 	}
 
